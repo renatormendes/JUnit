@@ -1,0 +1,6 @@
+{
+    "shell_cmd": "javac -cp \".:/opt/junit/junit.jar:/opt/junit/hamcrest.jar:/opt/junit/sqlite-jdbc.jar\" -d . ../src/model/*.java ../src/repository/*.java ../src/service/*.java \"$file\" && java -cp \".:/opt/junit/junit.jar:/opt/junit/hamcrest.jar:/opt/junit/sqlite-jdbc.jar\" org.junit.runner.JUnitCore \"$file_base_name\"",
+    "file_regex": "^(...*?):([0-9]*):?([0-9]*)",
+    "selector": "source.java",
+    "working_dir": "/home/renatormendes/Público/Java/JUnit/ComandaEletronica/tests"
+}

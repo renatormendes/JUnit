@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+@Test
+@DisplayName("${1:Deve fazer algo quando certa condicao ocorrer}")
+void test${2:NomeDoMetodo}() {
+    // Arrange (Preparação)
+    ${3:// instancie seus objetos aqui}
+
+    // Act (Ação)
+    ${4:// execute o método a ser testado}
+
+    // Assert (Verificação)
+    ${5:assertEquals(esperado, atual);}
+}
+]]></content>
+    <tabTrigger>aaa</tabTrigger>
+    <scope>source.java</scope>
+</snippet>
+

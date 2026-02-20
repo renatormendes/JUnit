@@ -1,0 +1,6 @@
+[
+    { "caption": "-", "id": "separator" },
+    { "command": "create_junit_project", "caption": "Novo Projeto JUnit5..." },
+    { "command": "clean_junit_project", "caption": "Limpar Projeto (Clean)" }
+]
+]

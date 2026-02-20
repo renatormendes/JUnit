@@ -1,0 +1,6 @@
+{
+    "shell_cmd": "rm -rf bin && mkdir bin && javac -d bin -cp \"lib/junit-platform-console-standalone-1.10.0.jar:src:test\" test/*.java && java -jar lib/junit-platform-console-standalone-1.10.0.jar execute -cp \"bin\" --scan-classpath --details-theme=unicode",
+    "file_regex": "^(...*?):([0-9]*):?([0-9]*)",
+    "working_dir": "${project_path:${folder}}"
+}
+
